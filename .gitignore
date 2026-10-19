@@ -1,0 +1,12 @@
+# Maven build output
+target/
+
+# VS Code workspace settings
+.vscode/
+
+# Logs
+*.log
+
+# Environment and secret files
+.env
+.env.*
