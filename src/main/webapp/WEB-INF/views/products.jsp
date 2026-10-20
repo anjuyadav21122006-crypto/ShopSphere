@@ -91,7 +91,7 @@
             <c:forEach var="product" items="${products}">
                 <div class="product-card">
 
-                    <img src="${pageContext.request.contextPath}/images/product-placeholder.jpg"
+                    <img src="${pageContext.request.contextPath}/images/${product.imageUrl}"
                          alt="Product image">
 
                     <h3><c:out value="${product.name}"/></h3>
